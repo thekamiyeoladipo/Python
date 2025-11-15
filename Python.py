@@ -41,3 +41,11 @@ my_var_2 = 21
 
 print(type(my_var_1)) # <class 'str'>
 print(type (my_var_2)) # <class 'int'>
+
+
+
+my_str_1 = "Hello"
+my_str_2 = 'Kamiye'
+str_plus_str = my_str_1 + " " + my_str_2
+print(str_plus_str)  # Output: Hello Kamiye
+
