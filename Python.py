@@ -3,7 +3,7 @@ print("Kamiye is learning Python.")
 # The most common data types in Python are:
 # 1. Integer example
 x = 5   
-print("Integer:", x)
+print("Integer:", x, type(x))
 # 2. Float example
 y = 3.14
 print("Float:", y)
@@ -12,7 +12,7 @@ name = "Kamiye"
 print("String:", name)
 # 4. Boolean example
 is_learning = True
-print("Boolean:", is_learning)
+print("Boolean:", is_learning) 
 # 5. List example
 fruits = ["apple", "banana", "cherry"]
 print("List:", fruits)
@@ -32,3 +32,12 @@ print("NoneType:", nothing)
 complex_number = 2 + 3j
 print("Complex:", complex_number)
 # These data types are fundamental in Python programming and are used to store and manipulate data in various ways.
+
+
+
+#To get the data type of a variable, you can use the type() function:
+my_var_1 = 'Hello world'
+my_var_2 = 21
+
+print(type(my_var_1)) # <class 'str'>
+print(type (my_var_2)) # <class 'int'>
