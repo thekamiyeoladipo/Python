@@ -49,3 +49,11 @@ my_str_2 = 'Kamiye'
 str_plus_str = my_str_1 + " " + my_str_2
 print(str_plus_str)  # Output: Hello Kamiye
 
+
+
+
+my_int_1 = 10
+my_int_2 = 5
+
+sum_ints = my_int_1 + my_int_2
+print('Sum of Integers:', sum_ints)  # Output: Sum of Integers 15
