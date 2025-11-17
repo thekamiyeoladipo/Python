@@ -87,3 +87,16 @@ if age >= 18:
     print("You are a senior man, cheeeee.")
 else:
     print("You are a minor.")
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+shift = 5
+shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+print(shifted_alphabet)
+# Explanation:
+# - `alphabet` is the lowercase English alphabet as a string.
+# - `shift` is the rotation amount (5).
+# - `shifted_alphabet` uses string slicing to rotate the alphabet:
+#   take everything from index `shift` to the end, then append the start up to `shift`.
+#   This implements a simple Caesar-style rotation.
+# - `print` outputs the resulting rotated alphabet (for shift=5 the result is 'fghijklmnopqrstuvwxyzabcde').
+# ...existing code...
