@@ -57,3 +57,33 @@ my_int_2 = 5
 
 sum_ints = my_int_1 + my_int_2
 print('Sum of Integers:', sum_ints)  # Output: Sum of Integers 15
+
+
+
+name = input('What is your name?')
+print('Hello', name)
+
+
+def hello():
+    print("Hello, world!")  
+hello()  # Call the function to execute its code
+
+
+def calculate_sum(a, b):
+    return a + b
+my_sum = calculate_sum(10, 10)
+print(my_sum)  # Output: 20
+
+
+
+def my_func():
+    my_var = 10
+    print(my_var)
+my_func()  # Output: 10
+
+
+age = 18
+if age >= 18:
+    print("You are a senior man, cheeeee.")
+else:
+    print("You are a minor.")
