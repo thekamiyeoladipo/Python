@@ -128,4 +128,12 @@ def caesar(text, shift):
         encrypted_text = text.translate(translation_table)
         print(encrypted_text)
 
+        if not encrypt:
+            shift = -shift
 
+
+            def encrypt(text, shift):
+                return caesar(text, shift)
+
+            def decrypt(text, shift):
+                return caesar(text, shift, False)
