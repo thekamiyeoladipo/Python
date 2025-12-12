@@ -117,3 +117,15 @@ def caesar(text, shift):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     shifted_alphabet = alphabet[shift:] + alphabet[:shift]
     translation_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shifted_alphabet.upper())
+    if shift < 1 or shift > 25:
+        return "Shift must be an integer between 1 and 25."
+
+
+
+    if not text or shift == 0:
+        print(text)
+    else:
+        encrypted_text = text.translate(translation_table)
+        print(encrypted_text)
+
+
