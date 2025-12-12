@@ -100,3 +100,20 @@ print(shifted_alphabet)
 #   This implements a simple Caesar-style rotation.
 # - `print` outputs the resulting rotated alphabet (for shift=5 the result is 'fghijklmnopqrstuvwxyzabcde').
 # ...existing code...
+
+
+def caesar():
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+shift = 5
+shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+translation_table = str.maketrans(alphabet, shifted_alphabet)
+text = 'hello world'
+encrypted_text = text.translate(translation_table)
+print(encrypted_text)
+
+
+
+def caesar(text, shift):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+    translation_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shifted_alphabet.upper())
