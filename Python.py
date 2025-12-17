@@ -149,4 +149,15 @@ def create_character(name, strength, intelligence, charisma):
         return "All stats should be no more than 4."
     if sum(stats) != 7:
         return "The character should start with 7 points."
-        
+        message  = """
+This is how you can write characters
+on multiple lines
+"""
+course = "Python for Beginners"
+print(len(course))  # Output: 20
+
+
+first_name = "Kamiye"
+last_name = "Ojedokun"
+full_name = f"{len(first_name)} {last_name}"
+print(full_name)  # Output: Kamiye Ojedokun
