@@ -1,1 +1,1 @@
-# Here just to document my python lessons
+# This is a repository for practicing Python towards Testing Automation 
