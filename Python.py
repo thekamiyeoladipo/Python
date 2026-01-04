@@ -158,6 +158,7 @@ print(len(course))  # Output: 20
 
 
 first_name = "Kamiye"
+middle_name = "Oladipo"
 last_name = "Ojedokun"
 full_name = f"{len(first_name)} {last_name}"
 print(full_name)  # Output: Kamiye Ojedokun
