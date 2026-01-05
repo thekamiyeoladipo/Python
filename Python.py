@@ -162,3 +162,8 @@ middle_name = "Oladipo"
 last_name = "Ojedokun"
 full_name = f"{len(first_name)} {last_name}"
 print(full_name)  # Output: Kamiye Ojedokun
+
+nick_name = "Kiloms"
+other_names = "km"
+full_nickname = nick_name + other_names
+print(full_nickname)
